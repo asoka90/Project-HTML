@@ -1,23 +1,45 @@
-ul{
+body{
+	font-family: arial;
+}
+
+#logo{
+	width: 40px;
+	height: 40px;
+	border: dotted;
+	/*border-radius: 50px;*/
+}
+
+/*Navigation*/
+#nav{
 	list-style-type: none;
   	margin: 0;
   	padding: 0;
   	overflow: hidden;
   	background-color: #333333;
+  	margin-top: -10px;
+  	min-width: 0;
 }
 
-li {
+ul li {
   	float: left;
 }
 
-li a {
+ul li a {
 	display: block;
 	color: white;
 	text-align: center;
-  	padding: 16px;
+  	padding: 20px;
   	text-decoration: none;
 }
 
-li a:hover{
+ul li a:hover{
   	background-color: red;
 }
+
+#login{
+	padding-left: 500px;
+	padding-right: 10px;
+}
+/*hr{
+	width: 40%;
+}*/
