@@ -1,45 +1,58 @@
-body{
-	font-family: arial;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-#logo{
-	width: 40px;
-	height: 40px;
-	border: dotted;
-	/*border-radius: 50px;*/
+#logo {
+  width: 8%;
+  border: solid black 2px;
+  border-radius: 20px;
+  margin: 0px 20px 0px;
+  float: left;
 }
 
-/*Navigation*/
-#nav{
-	list-style-type: none;
-  	margin: 0;
-  	padding: 0;
-  	overflow: hidden;
-  	background-color: #333333;
-  	margin-top: -10px;
-  	
+/* Login & Sign up */
+ul {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 15px 40px 0px;
+  padding: 0;
+  overflow: hidden;
+  list-style-type: none;
 }
 
 ul li {
-  	float: left;
+  float: right;
 }
 
 ul li a {
-	display: block;
-	color: white;
-	text-align: center;
-  	padding: 20px;
-  	text-decoration: none;
+  padding: 10px;
+  text-decoration: none;
 }
 
-ul li a:hover{
-  	background-color: red;
+/* Nav Bar */
+nav {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-top: 150px;
 }
 
-#login{
-	padding-left: 500px;
-	padding-right: 10px;
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
 }
-/*hr{
-	width: 40%;
-}*/
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  color: white;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  background-color: gray;
+}
